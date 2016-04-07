@@ -6,13 +6,14 @@ import java.util.Scanner;
  */
 public class Aciertos {
 /**
- * @param args	
- * 	 
  * genera un número random que lo mete en una variable llamada X
  * llama al método pide numero y posterior llama al método compara
  * si N es igual a X (numero random) imprime 
  * 'Exelente!!! Haz acertado , No. de intentos:' 
  * y saca el numero de intentos contando cada vez que se ejecuta.
+ * 
+ * @param args	
+ * 	 
  */
 	 public static void main(String[] args) {
 		 
@@ -30,13 +31,13 @@ public class Aciertos {
 
 	    }
 /**
- * 
- * @param n
- * @param x
- * 
  * compara el valor introducido y si es mayor muestra
  * el valor N es mayor a X, si la comprobacion es false muestra
  * el mensaje Casi cerca.
+ * 
+ * @param n es el valor que le damos al introducir un numero.
+ * @param x es el valor generado aleatoriamente.
+ * 
  */
 	private static void compara(int n, int x) {
 		
@@ -51,8 +52,8 @@ public class Aciertos {
 	
 	/**
 	 * 
-	 * @param sc
-	 * @return
+	 * @param sc valor que introduce un usuario
+	 * @return regresa el valor n numero introducido
 	 * 
 	 * Pide el valor de X y lo recoge en variable llamada N
 	 */
